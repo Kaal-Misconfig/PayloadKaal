@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/username/project/main/logo.png" alt="Logo" width="200">
-  <h1>AdvancedPayloadStudio</h1>
-  <p><strong>Advanced Multi-Encoder Payload Generator Framework</strong></p>
+  <h1>PayloadKaal</h1>
+  <p><strong>Multi-Encoder Payload Generator</strong></p>
   
   <p>
     <a href="#features">Features</a> •
@@ -14,7 +14,7 @@
   </p>
   
   <p>
-    <img src="https://img.shields.io/github/license/username/project" alt="License">
+    <img src="https://avatars.githubusercontent.com/u/2352090?v=4" alt="Offensive">
     <img src="https://img.shields.io/github/stars/username/project" alt="Stars">
     <img src="https://img.shields.io/github/forks/username/project" alt="Forks">
     <img src="https://img.shields.io/github/issues/username/project" alt="Issues">
