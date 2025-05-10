@@ -1,6 +1,6 @@
 <div align="center">
   <h1>💀 PayloadKaal 💀</h1>
-  <img src="YOUR_LOGO_URL_HERE" alt="PayloadKaal Logo" width="200">
+  <img src="https://raw.githubusercontent.com/Kaal-Misconfig/PayloadKaal/7a128004bbb26b9f418ced428cdb629833f3e515/payloadkaal_logo.svg" alt="PayloadKaal Logo" width="200">
 
   <p><strong>Multi-Encoder Payload Generator & AV Evasion Framework</strong></p>
   
