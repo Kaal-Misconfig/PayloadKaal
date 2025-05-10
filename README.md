@@ -1,5 +1,7 @@
 <div align="center">
   <h1>💀 PayloadKaal 💀</h1>
+  <img src="YOUR_LOGO_URL_HERE" alt="PayloadKaal Logo" width="200">
+
   <p><strong>Multi-Encoder Payload Generator & AV Evasion Framework</strong></p>
   
   <p>
