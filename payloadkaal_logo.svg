@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background Elements -->
+  <rect width="500" height="500" fill="#0a0e17" rx="15" ry="15" />
+  
+  <!-- Orbital Ring -->
+  <g opacity="0.6">
+    <circle cx="250" cy="250" r="160" fill="none" stroke="#00ffaa" stroke-width="2" stroke-dasharray="20 5" stroke-dashoffset="0" opacity="0.3">
+      <animate attributeName="stroke-dashoffset" from="0" to="25" dur="5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- Inner Hexagon Frame -->
+  <polygon points="250,115 355,175 355,295 250,355 145,295 145,175" fill="none" stroke="#00ffaa" stroke-width="4" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Digital Circuit Lines -->
+  <g stroke="#00ffaa" stroke-width="2.5" fill="none" opacity="0.9">
+    <path d="M250,115 L250,80" />
+    <path d="M355,175 L390,160" />
+    <path d="M355,295 L390,310" />
+    <path d="M250,355 L250,390" />
+    <path d="M145,295 L110,310" />
+    <path d="M145,175 L110,160" />
+  </g>
+  
+  <!-- Circuit End Points -->
+  <g fill="#00ffaa">
+    <circle cx="250" cy="80" r="6" />
+    <circle cx="390" cy="160" r="6" />
+    <circle cx="390" cy="310" r="6" />
+    <circle cx="250" cy="390" r="6" />
+    <circle cx="110" cy="310" r="6" />
+    <circle cx="110" cy="160" r="6" />
+  </g>
+  
+  <!-- Payload Symbol (Data Flow Icon) -->
+  <g fill="#00ffaa" opacity="0.95">
+    <path d="M250,180 L290,220 L250,260 L210,220 Z">
+      <animate attributeName="opacity" values="0.95;1;0.95" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="fill" values="#00ffaa;#ffffff;#00ffaa" dur="2s" repeatCount="indefinite" />
+    </path>
+    <circle cx="250" cy="220" r="20" fill="#0a0e17" />
+    <circle cx="250" cy="220" r="15" fill="#00ffaa" />
+  </g>
+  
+  <!-- Digital Code Elements -->
+  <g fill="#00ffaa" opacity="0.7" font-family="Consolas, monospace">
+    <text x="200" y="190" font-size="10">01001</text>
+    <text x="280" y="190" font-size="10">10110</text>
+    <text x="200" y="260" font-size="10">11000</text>
+    <text x="280" y="260" font-size="10">01101</text>
+  </g>
+  
+  <!-- Name "PAYLOADKAAL" -->
+  <text x="250" y="320" font-family="'Arial Black', Gadget, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">PAYLOADKAAL</text>
+  
+  <!-- Tagline -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa" text-anchor="middle">ADVANCED PAYLOAD FRAMEWORK</text>
+  
+  <!-- Animated Scanning Effect -->
+  <rect x="145" y="175" width="210" height="2" fill="#ffffff" opacity="0.7">
+    <animate attributeName="y" values="175;295;175" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="4s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Pulse Effect -->
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#00ffaa" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="100;200" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>
