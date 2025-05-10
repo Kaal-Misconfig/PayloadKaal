@@ -282,10 +282,11 @@ def compile_to_exe(input_file, output_name):
 
 def main():
     print("""
-    ╔══════════════════════════════════════════════════╗
-    ║      Simple Multi-Encoder Payload Generator      ║
-    ║       Educational Tool - Demonstration           ║
-    ╚══════════════════════════════════════════════════╝
+███████   ███████   ██     ██  ██         ██████   ███████ ██████████
+ ██   ██   ██   ██    ██   ██   ██        ██    ██  ██   ██   ██    ██
+ ███████   ███████      ███     ██        ██    ██  ███████   ██    ██
+ ██        ██   ██      ███     ██        ██    ██  ██   ██   ██    ██
+ ██        ██   ██      ███     ████████   ██████   ██   ██ ██████████
     """)
     
     parser = argparse.ArgumentParser(description="Simple Payload Generator - Educational Tool")
