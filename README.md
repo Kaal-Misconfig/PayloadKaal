@@ -1,8 +1,5 @@
 <div align="center">
   <h1>💀 PayloadKaal 💀</h1>
-  <p>
-    <img src="file:///D:/Downloads%20Bin/payloadkaal_logo.svg">
-  </p>
   <p><strong>Multi-Encoder Payload Generator & AV Evasion Framework</strong></p>
   
   <p>
