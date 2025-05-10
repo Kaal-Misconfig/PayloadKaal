@@ -1,6 +1,6 @@
 <div align="center">
   <h1>💀 PayloadKaal 💀</h1>
-  <p><strong>Advanced Multi-Encoder Payload Generator & AV Evasion Framework</strong></p>
+  <p><strong>Multi-Encoder Payload Generator & AV Evasion Framework</strong></p>
   
   <p>
     <a href="#features">Features</a> •
@@ -15,7 +15,6 @@
   <p>
     <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-blue" alt="Platform">
     <img src="https://img.shields.io/badge/Language-Python%203-yellow" alt="Language">
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
     <img src="https://img.shields.io/badge/Purpose-Educational-red" alt="Purpose">
   </p>
 </div>
@@ -40,13 +39,13 @@ PayloadKaal requires zero installation! Just download and run:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PayloadKaal.git
+git clone https://github.com/kaal-misconfig/PayloadKaal.git
 
 # Navigate to the directory
 cd PayloadKaal
 
 # Make the script executable
-chmod +x payloadgen.py
+chmod +x payload_generator.py
 ```
 
 **For executable creation feature:**
@@ -58,7 +57,7 @@ pip install pyinstaller
 ## 📋 Usage
 
 ```bash
-./payloadgen.py -o OUTPUT [-p PLATFORM] [-e ENCODING] [-x] [--exe-name NAME]
+./payload_generator.py -o [OUTPUT] -p [PLATFORM] -e [ENCODING] -x --exe-name [NAME]
 ```
 
 ### Arguments
@@ -77,14 +76,14 @@ pip install pyinstaller
 Implements a dynamic XOR cipher with a randomly generated key, providing effective basic obfuscation.
 
 ```bash
-./payloadgen.py -o payload.py -e xor
+./payload_generator.py -o payload.py -e xor
 ```
 
 ### Custom Base64
 Replaces standard Base64 with a shuffled alphabet, significantly altering payload signatures and making pattern detection difficult.
 
 ```bash
-./payloadgen.py -o payload.py -e b64custom
+./payload_generator.py -o payload.py -e b64custom
 ```
 
 ### Multi-Layer Encoding (Recommended)
@@ -95,24 +94,24 @@ The most powerful option, combining four techniques for maximum evasion:
 4. **Custom Base64** - Final encoding with modified alphabet
 
 ```bash
-./payloadgen.py -o payload.py -e multi
+./payload_generator.py -o payload.py -e multi
 ```
 
 ## 📊 Examples
 
 ### Generate a Linux Payload
 ```bash
-./payloadgen.py -o linux_payload.py -p linux -e multi
+./payload_generator.py -o linux_payload.py -p linux -e multi
 ```
 
 ### Generate a Windows Payload
 ```bash
-./payloadgen.py -o windows_payload.py -p windows -e xor
+./payload_generator.py -o windows_payload.py -p windows -e xor
 ```
 
 ### Create a Ready-to-Deploy Executable
 ```bash
-./payloadgen.py -o payload.py -p linux -e multi -x --exe-name kaal_payload
+./payload_generator.py -o payload.py -p linux -e multi -x --exe-name kaal_payload
 ```
 
 ## 🧰 Advanced Usage
@@ -148,7 +147,7 @@ def your_method(data, key):
 
 ### Memory Allocation Techniques
 
-PayloadKaal demonstrates advanced memory techniques used in modern payload development:
+PayloadKaal demonstrates memory techniques used in modern payload development:
 - **Windows**: Leverages the Win32 API with `VirtualAlloc` for executable memory regions
 - **Linux**: Uses memory-mapped (`mmap`) regions with proper protection flags
 
@@ -172,11 +171,7 @@ PayloadKaal serves as a comprehensive learning tool for:
 
 **PayloadKaal** is provided for **educational and research purposes only**. This tool demonstrates payload generation and encoding techniques that security professionals need to understand. The payloads generated are non-functional demonstrations that do not execute any actual malicious code.
 
-The authors do not condone nor support any malicious use of this tool. Users are responsible for complying with all applicable laws and regulations.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The author do not condone nor support any malicious use of this tool. Users are responsible for complying with all applicable laws and regulations.
 
 ## 🤝 Contributing
 
